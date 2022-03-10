@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Gleb CV</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <!--начало-->
+  <div class="info">
+    <img class="avatar" src="image.jpg" alt="тут моя фотка"/>
+
+    <div class="info-text">
+      <h1>Глеб Дмитриев</h1>
+      <p>Я начинающий программист</p>
+      <p>Я люблю заниматься спортом, гулять с собакой и хавать</p>
+      <h4>Мои соц-сети</h4>
+      <a href="https://instagram.com/dmik_g/" target="_blank">
+        Instagram</a> |
+      <a href="https://t.me/Krowayder/" target="_blank">
+        Telegram</a>
+    </div>
+  </div>
+
+  <hr/>
+
+  <div class="card bg-yellow">
+    <h2>Мои хобби</h2>
+    <ol class="list">
+      <li>Музыка</li>
+      <li>Спорт</li>
+      <li>Путешествия</li>
+    </ol>
+  </div>
+
+  <div class="card bg_red">
+    <h2>YouTube видео моих концертов</h2>
+    <el class="link-list">
+      <li><a href="">Видео 1</a></li>
+      <li><a href="">Видео 2</a></li>
+    </el>
+  </div>
+
+  <div class="card bg_green">
+    <h2>Мои кружки</h2>
+    <table class="table">
+      <tbody>
+      <tr>
+        <td>Футбол</td>
+        <td>Атакующий</td>
+        <td>2012-2014</td>
+      </tr>
+      <tr>
+        <td>Музыка</td>
+        <td>Гитарист, пианист</td>
+        <td>2012-2019</td>
+      </tr>
+      <tr>
+        <td>Театр</td>
+        <td>Актер</td>
+        <td>2016-2019</td>
+      </tr>
+      <tr>
+        <td>МАН</td>
+        <td>Физик, математик</td>
+        <td>2015-2019</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <hr/>
+
+  <div class="contact">
+    <h2>Связаться со мной</h2>
+
+    <form action="success.html" autocomplete="off" target="_blank">
+
+      <div class="row">
+        <div class="form-group">
+          <label for="name">Ваше имя</label>
+          <input id="name" type="text"
+                 placeholder="Введите ваше имя...">
+        </div>
+
+        <div class="form-group">
+          <label for="telefon">Ваш номер тел.</label>
+          <input id="telefon" type="tel"
+                 placeholder="Введите ваш тел...">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Ваш email</label>
+          <input id="email" type="email"
+                 placeholder="Введите email...">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="text">Ваше сообщение мне</label>
+        <textarea id="text" rows="2" cols="15"></textarea>
+      </div>
+
+      <input class="btn" value="Отправить!" type="submit">
+    </form>
+  </div>
+</div>
+</body>
+</html>
