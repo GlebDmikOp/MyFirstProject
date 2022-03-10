@@ -1,0 +1,183 @@
+body{
+  background-color: aliceblue;
+  color: #0f141d;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: Roboto;
+}
+
+.avatar{
+  width: 200px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 14px 5px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 1000px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
+.info p {
+  color: slategray;
+  font-style: italic;
+  margin: 2px;
+  word-spacing: 2px;
+}
+
+.info{
+  margin-bottom: 20px;
+  display: flex;
+  padding-top: 30px;
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+}
+
+.info-text h1 {
+  margin-bottom: 15px;
+}
+
+.container{
+  max-width: 1000px;
+  padding: 100px;
+  border-left: 50px solid #7FFFD4;
+  border-right: 50px solid #7FFFD4;
+  margin: auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: grey;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.bg-yellow {
+  background: #fff9dc;
+}
+
+.bg_green {
+  background: #e5ffe7;
+}
+
+.bg_red {
+  background: #ffe5e5;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: #0f141d;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(1) {
+  font-weight: 600;
+  font-family: "Agency FB";
+}
+
+.table tr:nth-child(even) {
+  background: #7FFFD4;
+}
+
+.table tr:nth-child(odd) {
+  background: aliceblue;
+}
+
+.link-list {
+  list-style: square;
+  padding: 0;
+}
+
+.link-list li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 5px;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #0f141d;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0 15px;
+  color: #000;
+  outline: none;
+  font-family: inherit;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 33%;
+  margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+  margin: 0;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  color: #fff;
+  background: brown;
+  cursor: pointer;
+}
+
+.bth:hover {
+  opacity: 0.33;
+}
